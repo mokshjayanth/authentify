@@ -4,15 +4,15 @@ import "./Holder.css";
 
 export default function Holder(props:any) {
 
-  //State Management
-  const [prodData, setProdData] = useState({});
+//   //State Management
+//   const [prodData, setProdData] = useState({});
 
-  // Data Fetch
-  useEffect(() => {
-    fetch('https://www.ag-grid.com/example-assets/row-data.json')
-    .then(result => result.json())
-    .then(prodData => setProdData(prodData))
-  }, []);
+//   // Data Fetch
+//   useEffect(() => {
+//     fetch('https://www.ag-grid.com/example-assets/row-data.json')
+//     .then(result => result.json())
+//     .then(prodData => setProdData(prodData))
+//   }, []);
 
   const Arr = Object.entries(data);//replace (data -> prodData)
 
