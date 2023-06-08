@@ -18,7 +18,7 @@ export default function Footer() {
       <div className="container" style={{margin:"5px"}}>
         <div className="row">
             <p className="copyright-text">
-              Copyright &copy; 2023 All Rights Reserved by <a href="#">Authentify</a>.
+              Copyright &copy; 2023 All Rights Reserved by <a href="www.google.com">Authentify</a>.
             </p>
         </div>
       </div>
